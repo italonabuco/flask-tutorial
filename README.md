@@ -17,3 +17,34 @@ $ python -m site --user-base
 ```
 
 And adding bin to the end. For example, this will typically print ~/.local (with ~ expanded to the absolute path to your home directory) so you’ll need to add ~/.local/bin to your PATH.
+
+## Install all dependencies
+
+```shell
+$ pipenv install
+```
+
+## Running the App
+
+Run command inside the virtualenv with:
+
+```shell
+$ pipenv run flask run
+```
+
+or 
+
+Activate this project's virtualenv with:
+
+```shell
+$ pipenv shell
+```
+
+then:
+
+```shell
+$ flask run
+```
+
+
+
