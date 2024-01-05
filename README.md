@@ -24,6 +24,13 @@ And adding bin to the end. For example, this will typically print ~/.local (with
 $ pipenv install
 ```
 
+## Initialize the database
+
+```shell
+# within: pipenv shell
+$ flask init-db
+```
+
 ## Running the App
 
 Run command inside the virtualenv with:
